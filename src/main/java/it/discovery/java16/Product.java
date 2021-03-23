@@ -7,9 +7,11 @@ public record Product(int id, double price) {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Product product = (Product) o;
-        return id == product.id;
+        if (o == null) return false;
+        if(o instanceof Product product) {
+            return id == product.id;
+        }
+        return false;
     }
 
     @Override
