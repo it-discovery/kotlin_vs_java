@@ -106,9 +106,9 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <source>1.15</source>
-                    <target>1.15</target>
-                    <release>15</release>
+                    <source>1.16</source>
+                    <target>1.16</target>
+                    <release>16</release>
                 </configuration>
             </plugin>
         </plugins>
